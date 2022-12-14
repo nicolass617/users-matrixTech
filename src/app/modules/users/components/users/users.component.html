@@ -1,0 +1,31 @@
+<div class="profile-container">
+    <div class="profile-content">
+        <mat-toolbar color="primary" class="profile-toolbar">PERFIL</mat-toolbar>
+        <mat-card>
+            <div class="align-info">
+                <mat-label>Nombre: </mat-label>
+                <mat-label>{{ userData.firstName}}</mat-label>
+            </div>
+            <div class="align-info">
+                <mat-label>Apellido: </mat-label>
+                <mat-label>{{ userData.lastName }}</mat-label>
+            </div>
+            <div class="align-info">
+                <mat-label>Email: </mat-label>
+                <mat-label>{{ userData.email }}</mat-label>
+            </div>
+            <div class="align-info">
+                <mat-label>Número de telefono: </mat-label>
+                <mat-label>{{ userData.phoneNumber }}</mat-label>
+            </div>
+            <div class="align-info">
+                <mat-label>Ciudad: </mat-label>
+                <mat-label>{{ userData.city }}</mat-label>
+            </div>
+            <div class="align-info">
+                <mat-label>País: </mat-label>
+                <mat-label>{{ userData.country }}</mat-label>
+            </div>
+        </mat-card>
+    </div>
+</div>

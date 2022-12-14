@@ -1,0 +1,37 @@
+<div class="register-container">
+	<div class="register-content">
+		<mat-toolbar class="register-toolbar" color="primary">REGISTRO</mat-toolbar>
+            <mat-card>
+                <form [formGroup]="userForm"> 
+                    <mat-form-field>
+                        <input type="text" matInput placeholder="First name" formControlName="firstName" required>
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <input type="text" matInput placeholder="Last name" formControlName="lastName" required>
+                    </mat-form-field>
+                    
+                    <mat-form-field>
+                        <input type="email" matInput placeholder="Email" formControlName="email" required>
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <input type="number" matInput placeholder="Phone number" formControlName="phoneNumber" required>
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <input type="text" matInput placeholder="City" formControlName="city" required>
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <input type="text" matInput placeholder="Country" formControlName="country" required>
+                    </mat-form-field>
+
+                    <hr>
+                    <div class="socialMediaFlex">
+                        <button style="width:50%" mat-raised-button color="primary" [disabled]="userForm.invalid" (click)="register('user')">Registrarse</button>
+                    </div>
+                </form>
+            </mat-card>
+	</div>
+</div>

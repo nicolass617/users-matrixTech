@@ -1,0 +1,7 @@
+{
+    "/api/v1/*":{
+        "target": "https://6399e37216b0fdad774cf72f.mockapi.io",
+        "secure": true,
+        "logLevel": "debug"
+    }
+}

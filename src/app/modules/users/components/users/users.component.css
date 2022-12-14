@@ -1,0 +1,32 @@
+.profile-container {
+    margin-top: 50px;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.profile-content {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-toolbar {
+    justify-content: center;
+}
+
+.profile-info {
+    margin: 0 auto;
+    align-items: center;
+    font-size: 20;
+}
+
+.mat-card {
+    font-size: 20px;
+    text-align: center;
+}
+
+.align-info {
+    margin-bottom: 10px;
+}
